@@ -1,0 +1,71 @@
+Perceptron Learning Algorithm
+Number of Training Data 1600
+Number of Test Data 400
+Misclassification Threshold: 0.0
+Weights: [[ 5.84546450e-04  6.76537260e-01 -5.44569979e-01 -4.04850199e-01]]
+Misclassifications: 0
+Accuracy:  0.9975
+Recall:  1.0
+Precision:  0.991869918699187
+Fmeasure:  0.9959183673469388
+=======================
+['', 'P1', 'N0']
+['P1', 122, 0]
+['N0', 1, 277]
+TP:  122
+FP:  0
+FN:  1
+TN:  277
+Equation: 0.00 + 0.68x1 + -0.54x2 + -0.40x3 = 0
+------------------------------------------
+Pocket Algorithm
+Number of Training Data 1600
+Number of Test Data 400
+Iterations: 7000
+Epoch: 6999        Min Misclassification: 758
+Weights: [[0.01213509 0.04846756 0.02423028 0.01181332]]
+Misclassification: 758
+Accuracy:  0.465
+Recall:  0.2843601895734597
+Precision:  0.4878048780487805
+Fmeasure:  0.3592814371257485
+=======================
+['', 'P1', 'N0']
+['P1', 60, 151]
+['N0', 63, 126]
+TP:  60
+FP:  151
+FN:  63
+TN:  126
+Equation: 0.01 + 0.05x1 + 0.02x2 + 0.01x3 = 0
+------------------------------------------
+Logistic Regression
+Number of Training Data 1600
+Number of Test Data 400
+Loss Value: [0.69314718]
+Iterations: 7000
+Loss Value: [0.69257597]
+Weights: [[-0.08631761 -0.06490397  0.10089485  0.02172832]]
+Accuracy:  0.4925
+Recall:  0.08530805687203792
+Precision:  0.6428571428571429
+Fmeasure:  0.1506276150627615
+=======================
+['', 'P1', 'N0']
+['P1', 18, 193]
+['N0', 10, 179]
+TP:  18
+FP:  193
+FN:  10
+TN:  179
+Equation: -0.09 + -0.06x1 + 0.10x2 + 0.02x3 = 0
+------------------------------------------
+Linear Regression
+Number of Training Data 1600
+Number of Test Data 400
+Weights: [0.01523535 1.08546357 3.99068855]
+MAE: 0.15670441572187646
+RMSE: 0.1875840278253885
+Equation: y = 0.02 + 1.09x1 + 3.99x2
+------------------------------------------
+
